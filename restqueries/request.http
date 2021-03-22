@@ -1,0 +1,14 @@
+#ATTENTION!for executing one query other queries must be commented
+
+# GET http://localhost:3000/person/all HTTP/1.1
+
+
+POST http://localhost:3000/person HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Chety Miran Rındık"
+}
+
+
+# DELETE http://localhost:3000/person/4 HTTP/1.1 
